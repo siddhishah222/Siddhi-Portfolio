@@ -4,10 +4,9 @@
     let steps = [
         {
             name: "CaaS (Communication as a Service)",
-            icon: "fa-solid fa-globe",
+            icon: "fa-solid fa-envelope-open-text",
             description:
                 "CaaS platform enables seamless communication across channels like email and Slack, enhancing collaboration and streamlining change management processes.",
-            link: "https://www.linkedin.com/in/siddhi-shah-developer/" 
         },
         {
             name: "ConnectRN",
@@ -25,29 +24,28 @@
             link: "https://app.stg.dclex.com/stocks",
             link1: "https://dclex.com/?issueModal=0"
         },
-        // {
-        //     name: "Tax Incentive Made Easy Consulting",
-        //     icon: "fa-solid fa-globe",
-        //     description:
-        //         "TIME Consulting is a platform that helps small and medium size businesses to secure funding from government to grow their business.",
-        //     link: "https://www.linkedin.com/in/siddhi-shah-developer/" 
-        // },
-        // {
-        //     name: "ConnectRN",
-        //     icon: "fa-solid fa-hospital-user",
-        //     description:
-        //         "ConnectRN is an ecosystem that includes web application for supervisors and admins, and mobile apps for clinicians on iOS and Android. It is created using React.js, Next.js, Storybook, Redux, Material UI, UI kittens and React Native. It connects Clinicians with career opportunities, and offers features such as competitive pay, the ability to manage work schedules, and access to a community for professional support and networking. ",
-        //     link: "https://play.google.com/store/apps/details?id=com.connectrn&hl=en_CA" ,
-        //     link1: "https://app.connectrn.com/"
-        // },
-        // {
-        //     name: "DCLEX",
-        //     icon: "fa-solid fa-coins",
-        //     description:
-        //         "DCLEX is a trading platform that enables users to settle trades in USDC and hold stocks in their Ethereum accounts.",
-        //     link: "https://app.stg.dclex.com/stocks",
-        //     link1: "https://dclex.com/?issueModal=0"
-        // },
+        {
+            name: "Global Settlement Service",
+            icon: "fa-solid fa-globe",
+            description:
+                "Global Settlement Service is a platform designed to streamline and simplify the process of for new comers to settle in Canada. It includes web application and website for newcomers. It is created using React.js, Next.js, Storybook, Redux, WordPress and PHP.",
+            link: "https://app.globalsettlementservice.com:3000/",
+            link1: "https://globalsettlementservice.com/" ,
+        },
+        {
+            name: "Tax Incentives Made Easy",
+            icon: "fa-solid fa-money-bill-wave",
+            description:
+                "TIME Consulting is a platform that helps small and medium size businesses to secure funding from government to grow their business.",
+            link1: "https://timeconsulting.ca/",
+        },
+        {
+            name: "Cubic Digital",
+            icon: "fa-solid fa-cube",
+            description:
+                "Cubic Digital provides comprehensive digital solutions tailored to meet the evolving needs of businesses in today's digital landscape.",
+            link1: "https://cubicdigital.ca/"
+        },
     ];
 
     let benefits = [
@@ -155,32 +153,17 @@
             </Step>
             <Step step={steps[3]}>
                 <p>
-                Successfully launched the CaaS platform within the Nucleus ecosystem to streamline <strong class="text-violet-400"> Walmart's </strong> communication processes.  It is created using <strong
-                class="text-violet-400"
-                > React.js, Next.js, CSS preprocessors, Custom Hooks, React Hooks, Node.js, Express.js, and MongoDB.
-                </strong> CaaS automated over <strong class="text-violet-400"> 200 </strong> Microsoft change event communications, <strong class="text-violet-400"> 150 </strong> Business Continuity and Disaster Recovery communications, saving <strong
-                class="text-violet-400"
-                > 460 man-hours </strong> annually.
+                    Global Settlement Service is a platform designed to streamline and simplify the process of for new comers to settle in Canada. It includes web application and website for newcomers. It is created using <strong class="text-violet-400"> React.js, Next.js, Storybook, Redux, React Hooks, Rest API, WordPress and PHP.</strong> I have created custom templated and themes for each web pages and content with <strong class="text-violet-400"> SEO</strong> in mind to ensure the platform ranks high on <strong class="text-violet-400">Google search index.</strong>
                 </p>
             </Step>
             <Step step={steps[4]}>
                 <p>
-                Successfully launched the CaaS platform within the Nucleus ecosystem to streamline <strong class="text-violet-400"> Walmart's </strong> communication processes.  It is created using <strong
-                class="text-violet-400"
-                > React.js, Next.js, CSS preprocessors, Custom Hooks, React Hooks, Node.js, Express.js, and MongoDB.
-                </strong> CaaS automated over <strong class="text-violet-400"> 200 </strong> Microsoft change event communications, <strong class="text-violet-400"> 150 </strong> Business Continuity and Disaster Recovery communications, saving <strong
-                class="text-violet-400"
-                > 460 man-hours </strong> annually.
+                    Tax Incentives Made Easy simplifies access to government funding for small and medium-sized businesses. The website utilizes a mix of <strong class="text-violet-400"> HTML, CSS, JavaScript, WordPress</strong> and backend technologies like <strong class="text-violet-400">PHP or Node.js</strong> for efficient processing. It may also leverage frameworks like <strong class="text-violet-400">React.js and Angular.js </strong> for interactive interfaces and WordPress for content management.
                 </p>
             </Step>
             <Step step={steps[5]}>
                 <p>
-                Successfully launched the CaaS platform within the Nucleus ecosystem to streamline <strong class="text-violet-400"> Walmart's </strong> communication processes.  It is created using <strong
-                class="text-violet-400"
-                > React.js, Next.js, CSS preprocessors, Custom Hooks, React Hooks, Node.js, Express.js, and MongoDB.
-                </strong> CaaS automated over <strong class="text-violet-400"> 200 </strong> Microsoft change event communications, <strong class="text-violet-400"> 150 </strong> Business Continuity and Disaster Recovery communications, saving <strong
-                class="text-violet-400"
-                > 460 man-hours </strong> annually.
+                    Cubic Digital specializes in comprehensive digital solutions, including SEO optimization. We leveraged strategies like keyword research, on-page optimization, technical SEO, content strategy, link building, and continuous monitoring to enhance online visibility and attract organic traffic. With used <strong class="text-violet-400">  HTML, CSS, JavaScript, WordPress, and PHP, </strong> to tailor solutions to meet the evolving needs of businesses in today's digital landscape.
                 </p>
             </Step>
         </div>

@@ -15,7 +15,7 @@
     </h3>
     <slot />
     <div class="flex-1 flex justify-between gap-4 items-end">
-        {#if step.index !== 0}
+        {#if step.link}
             <div
                 class="mr-auto mt-10 cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full rounded-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
             >
@@ -26,9 +26,9 @@
                 </a>
             </div>
         {/if}
-        
+
         <div class="flex-1 flex justify-between gap-4 items-start">
-            {#if step.index !== 0}
+            {#if step.link1}
                 <div
                     class="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full rounded-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
                 >
