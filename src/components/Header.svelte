@@ -12,7 +12,7 @@
         { name: "Projects", link: "#projects"},
         { name: "About me", link: "#about"},
         { name: "Recommendations", link: "#recommendations"},
-        { name: "Contact", link: "#contact"},
+        // { name: "Contact", link: "#contact"},
     ];
 </script>
 
@@ -24,10 +24,10 @@
         )}
     >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Siddhi Shah</b>
+        <b class="font-bold poppins">SIDDHI SHAH</b>
     </h1>
     <div
-        class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto mr-60"
+        class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto  mr-0 md:mr-60"
     >
         <a 
             href="https://www.linkedin.com/in/siddhi-shah-developer/" 
