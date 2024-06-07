@@ -26,6 +26,23 @@
     <h1 class="font-medium">
         <b class="font-bold poppins">Siddhi Shah</b>
     </h1>
+    <div
+        class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto mr-60"
+    >
+        <a 
+            href="https://www.linkedin.com/in/siddhi-shah-developer/" 
+            target="_blank" 
+            class=""
+        >
+            <i class="fa-brands fa-linkedin-in text-3xl"/>
+        </a>
+        <a 
+            href="https://github.com/siddhishah222" 
+            target="_blank" 
+        >
+            <i class="fa-brands fa-github text-3xl" />
+        </a>
+    </div>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a
@@ -37,7 +54,7 @@
         {/each}
  
         <button 
-        on:click={togglePhoneNumber}
+            on:click={togglePhoneNumber}
             class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950">
             <div
                 class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"

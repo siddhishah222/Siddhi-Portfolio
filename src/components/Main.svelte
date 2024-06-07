@@ -111,10 +111,8 @@
                     class="object-cover rounded-full max-h-[50vh]"
                 />
             </div>
-        </div>
-        
+        </div>  
     </section>
-    <section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
@@ -151,6 +149,8 @@
                     > Integrated real-time data feeds for comprehensive market insights, empowering users to make informed investment decisions swiftly.
                 </p>
             </Step>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[3]}>
                 <p>
                     Global Settlement Service is a platform designed to streamline and simplify the process of for new comers to settle in Canada. It includes web application and website for newcomers. It is created using <strong class="text-violet-400"> React.js, Next.js, Storybook, Redux, React Hooks, Rest API, WordPress and PHP.</strong> I have created custom templated and themes for each web pages and content with <strong class="text-violet-400"> SEO</strong> in mind to ensure the platform ranks high on <strong class="text-violet-400">Google search index.</strong>
@@ -172,7 +172,6 @@
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
-        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
         >
@@ -269,7 +268,7 @@
     </section>
     <section
         id="recommendations"
-        class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+        class="py-20 pt-10 lg:pt-16 md:pb-0 flex flex-col gap-16 sm:gap-18 md:gap-20 relative"
     >
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
@@ -309,6 +308,6 @@
                 class="object-cover z-[2] max-h-[49vh]"
             />
         </div>
-        <p class="mx-auto">So why not invest?</p> 
+        <p class="mx-auto mb-0 pb-0">So why not invest?</p> 
     </section>
 </main>
