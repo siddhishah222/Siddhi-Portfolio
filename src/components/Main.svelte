@@ -9,12 +9,12 @@
                 "CaaS platform enables seamless communication across channels like email and Slack, enhancing collaboration and streamlining change management processes.",
         },
         {
-            name: "ConnectRN",
+            name: "Health Care",
             icon: "fa-solid fa-hospital-user",
             description:
-                "ConnectRN is an ecosystem that includes web application for supervisors and admins, and mobile apps for clinicians on iOS and Android. It is created using React.js, Next.js, Storybook, Redux, Material UI, UI kittens and React Native. It connects Clinicians with career opportunities, and offers features such as competitive pay, the ability to manage work schedules, and access to a community for professional support and networking. ",
-            link: "https://play.google.com/store/apps/details?id=com.connectrn&hl=en_CA" ,
-            link1: "https://app.connectrn.com/"
+                "Our Healthcare ecosystem includes web application for supervisors and admins, and mobile apps for clinicians on iOS and Android. It is created using React.js, Next.js, Storybook, Redux, Material UI, UI kittens and React Native. It connects Clinicians with career opportunities, and offers features such as competitive pay, the ability to manage work schedules, and access to a community for professional support and networking. ",
+            // link: "https://play.google.com/store/apps/details?id=com.connectrn&hl=en_CA" ,
+            // link1: "https://app.connectrn.com/"
         },
         {
             name: "DCLEX",
@@ -135,7 +135,7 @@
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    ConnectRN is an ecosystem that includes application for supervisors, admins and clinicians on <strong
+                    Our Healthcare ecosystem includes application for supervisors, admins and clinicians on <strong
                     class="text-violet-400"
                     > web, iOS and Android. </strong> It is created using <strong
                     class="text-violet-400"
