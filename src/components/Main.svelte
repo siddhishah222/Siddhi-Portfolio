@@ -104,11 +104,11 @@
             </div>
         </div>
         <div class="relative grid place-items-center">
-            <div class="rounded-full p-1 m-4 bg-transparent shadow-5xl border-2 border-violet">
+            <div class="rounded-full p-0 m-4 bg-transparent shadow-5xl border-2 border-violet">
                 <img
-                    src={"images/Siddhi.jpg"}
+                    src={"images/Sidshahnew.png"}
                     alt="Siddhi Shah"
-                    class="object-cover rounded-full max-h-[50vh]"
+                    class="object-cover rounded-full max-h-[60vh]"
                 />
             </div>
         </div>  
