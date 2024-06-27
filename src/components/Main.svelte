@@ -282,6 +282,13 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
+                src={"images/Anirvann.png"}
+                alt="Partha's recommendation"
+                class="object-cover z-[2] max-h-[32vh]"
+            />
+        </div>
+        <div class="relative shadow-2xl grid place-items-center">
+            <img
                 src={"images/Rajendra.png"}
                 alt="Rajendra's recommendation"
                 class="object-cover z-[2] max-h-[40vh]"
